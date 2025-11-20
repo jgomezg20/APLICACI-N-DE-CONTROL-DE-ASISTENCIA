@@ -1,0 +1,37 @@
+/Control_Asistencia
+│
+├── README.md
+│
+├── requerimientos/
+│   ├── DRS_v1.docx                # Documento inicial de requisitos del sistema
+│   ├── DRS_v2.docx                # Documento refinado de requisitos
+│   └── Modelo_Datos.pdf           # Modelo entidad–relación del sistema de asistencia
+│
+├── pruebas/
+│   ├── PlanPruebas.docx           # Plan general de pruebas
+│   └── Casos_Prueba_Asistencia.xlsx  # Casos de prueba para registro y consulta
+│
+├── mantenimiento/
+│   ├── Propuesta_Mantenimiento.md # Estrategia de mantenimiento del sistema
+│   └── Bitacora_Cambios.md        # Cambios aplicados durante mantenimientos
+│
+├── investigacion/
+│   ├── Uso_de_Markdown.md         # Documento sobre el uso de MD
+│   └── Analisis_Tecnologias.md    # Tecnologías evaluadas para el sistema
+│
+├── evidencias/
+│   ├── historial_commits.png      # Captura del historial de commits
+│   ├── versionado_docs.png        # Captura del versionado de documentos
+│   ├── estructura_repo.png        # Imagen del árbol del repositorio
+│   └── interfaz_prototipo.png     # Mockup de la interfaz de registro de asistencia
+│
+└── src/
+    ├── backend/
+    │   ├── api.py                 # API para registrar y consultar asistencias
+    │   ├── models.py              # Modelos de datos (Empleado, Asistencia)
+    │   └── database.py            # Conexión y configuración de BD
+    │
+    └── frontend/
+        ├── index.html             # Pantalla principal
+        ├── registrar_asistencia.html # Vista para captura
+        └── estilos.css            # Estilos del sistema
